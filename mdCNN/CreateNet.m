@@ -1,3 +1,8 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Copyright (C) 2015-16 Hagay Garty.
+% hagaygarty@gmail.com , mdCNN library
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 function [ net ] = CreateNet( conf_file )
 %% Constructor for net struct , loads the configuration from conf_file

@@ -1,7 +1,13 @@
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Copyright (C) 2015-16 Hagay Garty.
+% hagaygarty@gmail.com , mdCNN library
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function [ net ] = initNetWeight( net )
 rng(0);
+fprintf('multi dimentional CNN , Hagay Garty 2016 | hagaygarty@gmail.com\nInitializing network..\n');
+
+%init W
 prevLayerActivation=1; %for input
 net.properties.numWeights = 0;
 assert( isequal(net.layers{1}.properties.type,net.types.input), 'Error - first layer must be input layer (type =-2)');
